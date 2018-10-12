@@ -18,7 +18,8 @@ documentContainer.innerHTML = `
     --paper-toggle-button-checked-button-color:  var(--accent-color);
     --paper-toggle-button-checked-ink-color: var(--accent-color);
 
-    --paper-tooltip-background: #000;
+    --paper-tooltip-background: #232F34;
+    --paper-tooltip-opacity: 1;
 
     --paper-tabs-selection-bar-color: var(--accent-color);
     --paper-tab-ink: var(--accent-color);
