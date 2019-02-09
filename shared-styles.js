@@ -1,7 +1,7 @@
-import { html } from "@polymer/lit-element";
+import { css } from "lit-element";
 import { style as typography } from "./mwc-typography-css";
 
-export const styles = html`
+export const styles = css`
 ${typography}
 <style>
 :host {
