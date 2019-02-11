@@ -1,7 +1,7 @@
-const htCSSDocumentContainer = document.createElement("div");
-htCSSDocumentContainer.setAttribute("style", "display: none;");
+const customCSSPropertiesHT = document.createElement("div");
+customCSSPropertiesHT.setAttribute("style", "display: none;");
 
-htCSSDocumentContainer.innerHTML = `
+customCSSPropertiesHT.innerHTML = `
 <custom-style>
   <style is="custom-style">
     html {
@@ -27,4 +27,4 @@ htCSSDocumentContainer.innerHTML = `
   </style>
 </custom-style>`;
 
-document.body.appendChild(htCSSDocumentContainer);
+document.body.appendChild(customCSSPropertiesHT);
